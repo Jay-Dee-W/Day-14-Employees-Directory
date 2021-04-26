@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#root {
+    justify-content: center;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user-card {
+    background-color: white;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin: 12px;
+    color: black;
+    width: 400px;
+}
